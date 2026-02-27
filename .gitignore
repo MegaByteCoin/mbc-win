@@ -1,41 +1,82 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Build artifacts
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+*.lo
 *.la
 *.a
-*.lib
-
-# Executables
+*.so
+*.so.*
+*.dylib
+*.dll
 *.exe
-*.out
-*.app
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.exp
 
-# debug information files
-*.dwo
+# Autotools
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.cache
+config.log
+config.status
+configure
+libtool
+m4/libtool.m4
+m4/lt*.m4
+build-aux/compile
+build-aux/depcomp
+build-aux/install-sh
+build-aux/missing
+build-aux/test-driver
+
+# Qt
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.pro.user
+*.qmake.stash
+
+# Logs
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# depends build output (do not commit)
+depends/built/
+depends/*/built/
+depends/*/host/
+depends/*/native/
+depends/*/share/
+depends/*/include/
+depends/*/lib/
+depends/*/bin/
+depends/*/sbin/
+depends/*/man/
+depends/*/info/
+depends/*/pkgconfig/
+depends/*/qt/
+depends/*/mkspecs/
+depends/*/plugins/
+depends/*/translations/
+depends/*/libexec/
+depends/*/ssl/
+depends/*/etc/
+depends/*/var/
+depends/*/tmp/
+depends/*/src/
+depends/*/work/
+depends/*/download/
+depends/*/packages/
+depends/*/patches/
+depends/*/config.site
+depends/*/share/config.site
