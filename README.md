@@ -134,3 +134,12 @@ git push -u origin main
 ## License
 
 See `COPYING` (if present) and third-party dependency licenses.
+<<<<<<< HEAD
+=======
+
+
+
+
+# mbc-win
+MegaByteCoin Windows build source with depends cross-compilation support (mingw64).
+>>>>>>> 21c10a1f6fb111e77432ebfd578106de3e5e9c7d
