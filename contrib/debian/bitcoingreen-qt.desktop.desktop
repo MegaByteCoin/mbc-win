@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MBC
+Comment=MBC P2P Cryptocurrency
+Exec=mbc-qt %u
+Terminal=false
+Type=Application
+Icon=mbc128
+MimeType=x-scheme-handler/mbc;
+Categories=Office;Finance;
+Name[en_US]=mbc-qt.desktop

@@ -1,0 +1,11 @@
+[Protocol]
+exec=mbc-qt '%u'
+protocol=mbc
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
