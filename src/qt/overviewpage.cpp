@@ -32,7 +32,7 @@
 #define ICON_OFFSET 16
 #define NUM_ITEMS 7
 
-#define NEWS_URL "https://megabytecoin.eu.org/feed/"
+#define NEWS_URL "https://megabytecoin.pp.ua/feed/"
 
 extern CWallet* pwalletMain;
 
@@ -356,20 +356,20 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
 void OverviewPage::SetLinks()
 {
     ui->labelLinks1->setText("WebSite MegaByteCoin:");
-    ui->labelLinks2->setText("Whitepaper MegaByteCoin:");
+    ui->labelLinks2->setText("WhitePaper MegaByteCoin:");
     ui->labelLinks3->setText("MegaByteCoin Explorer:");
     ui->labelLinks4->setText("Github MegaByteCoin:");
     ui->labelLinks5->setText("Discord MegaByteCoin:");
-    ui->labelLinks6->setText("YouTube SOON:");
-    ui->labelLinks7->setText("BitcoinTalk SOON:");
+    ui->labelLinks6->setText("YouTube MegaByteCoi:");
+    ui->labelLinks7->setText("BitcoinTalk MegaByteCoi:");
 
-    ui->labelLinksUrl1->setText("<a href=\"https://www.megabytecoin.eu.org\">https://www.megabytecoin.eu.org</a>");
-    ui->labelLinksUrl2->setText("<a href=\"https://www.megabytecoin.eu.org/whitepaper\">https://www.megabytecoin.eu.org/whitepaper</a>");
-    ui->labelLinksUrl3->setText("<a href=\"https://explorer.megabytecoin.eu.org\">https://explorer.megabytecoin.eu.org</a>");
-    ui->labelLinksUrl4->setText("<a href=\"https://github.com/MegaByteCoin\">https://github.com/MegaByteCoin</a>");
-    ui->labelLinksUrl5->setText("<a href=\"https://discord.com\">https://www.megabytecoin.eu.org/discord.php</a>");
-    ui->labelLinksUrl6->setText("<a href=\"https://youtube.com\">https://www.megabytecoin.eu.org/youtube.php</a>");
-    ui->labelLinksUrl7->setText("<a href=\"https://bitcointalk.org\">https://www.megabytecoin.eu.org/bitcointalk.php<</a>");
+    ui->labelLinksUrl1->setText("<a href=\"www.megabytecoin.pp.ua\">https://www.megabytecoin.pp.ua</a>");
+    ui->labelLinksUrl2->setText("<a href=\"www.megabytecoin.pp.ua/whitepaper\">https://www.megabytecoin.pp.ua/whitepaper</a>");
+    ui->labelLinksUrl3->setText("<a href=\"www.explorer.megabytecoin.pp.ua\">https://explorer.megabytecoin.pp.ua</a>");
+    ui->labelLinksUrl4->setText("<a href=\"www.github.com/MegaByteCoin\">https://github.com/MegaByteCoin</a>");
+    ui->labelLinksUrl5->setText("<a href=\"www.discord.com\">https://www.megabytecoin.pp.ua/discord.php</a>");
+    ui->labelLinksUrl6->setText("<a href=\"www.youtube.com\">https://www.megabytecoin.pp.ua/youtube.php</a>");
+    ui->labelLinksUrl7->setText("<a href=\"www.bitcointalk.org\">https://www.megabytecoin.pp.ua/bitcointalk.php<</a>");
 }
 
 void OverviewPage::updateNewsList()
