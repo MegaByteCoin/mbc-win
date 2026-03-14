@@ -356,20 +356,21 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
 void OverviewPage::SetLinks()
 {
     ui->labelLinks1->setText("WebSite MegaByteCoin:");
-    ui->labelLinks2->setText("WhitePaper MegaByteCoin:");
+    ui->labelLinks2->setText("Exchange EX-MBC:");
     ui->labelLinks3->setText("MegaByteCoin Explorer:");
-    ui->labelLinks4->setText("Github MegaByteCoin:");
-    ui->labelLinks5->setText("Discord MegaByteCoin:");
-    ui->labelLinks6->setText("YouTube MegaByteCoi:");
-    ui->labelLinks7->setText("BitcoinTalk MegaByteCoi:");
+    ui->labelLinks4->setText("BitcoinTalk MegaByteCoin:");
+    ui->labelLinks5->setText("Github MegaByteCoin:");
+    ui->labelLinks6->setText("Discord MegaByteCoin:");
+	ui->labelLinks7->setText("YouTube MegaByteCoin:");
 
-    ui->labelLinksUrl1->setText("<a href=\"www.megabytecoin.pp.ua\">https://www.megabytecoin.pp.ua</a>");
-    ui->labelLinksUrl2->setText("<a href=\"www.megabytecoin.pp.ua/whitepaper\">https://www.megabytecoin.pp.ua/whitepaper</a>");
-    ui->labelLinksUrl3->setText("<a href=\"www.explorer.megabytecoin.pp.ua\">https://explorer.megabytecoin.pp.ua</a>");
-    ui->labelLinksUrl4->setText("<a href=\"www.github.com/MegaByteCoin\">https://github.com/MegaByteCoin</a>");
-    ui->labelLinksUrl5->setText("<a href=\"www.discord.com\">https://www.megabytecoin.pp.ua/discord.php</a>");
-    ui->labelLinksUrl6->setText("<a href=\"www.youtube.com\">https://www.megabytecoin.pp.ua/youtube.php</a>");
-    ui->labelLinksUrl7->setText("<a href=\"www.bitcointalk.org\">https://www.megabytecoin.pp.ua/bitcointalk.php<</a>");
+    ui->labelLinksUrl1->setText("<a href=\"https://megabytecoin.pp.ua\">MegaByteCoin.PP.UA</a>");
+	ui->labelLinksUrl2->setText("<a href=\"https://ex.mbc.pp.ua\">EX.MBC.PP.UA</a>");
+    ui->labelLinksUrl3->setText("<a href=\"https://explorer.megabytecoin.pp.ua\">Explorer.MegaByteCoin.PP.UA</a>");
+    ui->labelLinksUrl4->setText("<a href=\"https://megabytecoin.pp.ua/bitcointalk.php\">BitCoinTalk.org</a>");
+    ui->labelLinksUrl5->setText("<a href=\"https://github.com/MegaByteCoin\">GitHub.Com/MegaByteCoin</a>");
+    ui->labelLinksUrl6->setText("<a href=\"https://megabytecoin.pp.ua/discord.php\">Discord.Com</a>");
+    ui->labelLinksUrl7->setText("<a href=\"https://megabytecoin.pp.ua/youtube.php\">YouTube.Com<</a>");
+	
 }
 
 void OverviewPage::updateNewsList()
