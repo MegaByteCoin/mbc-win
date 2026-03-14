@@ -32,7 +32,7 @@
 #define ICON_OFFSET 16
 #define NUM_ITEMS 7
 
-#define NEWS_URL "https://megabytecoin.eu.org/feed.php"
+#define NEWS_URL "https://megabytecoin.eu.org/feed/"
 
 extern CWallet* pwalletMain;
 
