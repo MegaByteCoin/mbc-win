@@ -1,7 +1,7 @@
 # MegaByte Coin for Windows
 
 <p align="center">
-  <img src=".github/assets/walletFrame_bg.png" alt="MegaByte Coin Windows Build" width="100%">
+  <img src=".github/assets/walletFrame_bg.png" alt="MegaByte Coin Ubuntu Build" width="100%">
 </p>
 
 <p align="center">
